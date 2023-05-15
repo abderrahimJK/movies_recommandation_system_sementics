@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="668.0" prefWidth="1075.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ma.enset.movies_recommandation_system_sementicsdemo.MovieRecommendationSys">
+   <children>
+      <ListView fx:id="listView" layoutX="14.0" layoutY="108.0" prefHeight="552.0" prefWidth="442.0" />
+      <VBox layoutX="14.0" layoutY="14.0" prefHeight="54.0" prefWidth="442.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="53.0" prefWidth="442.0" spacing="20.0">
+               <children>
+                  <TextField fx:id="search_input" prefHeight="26.0" prefWidth="190.0" />
+                  <ComboBox fx:id="genres_combo" prefWidth="150.0" />
+                  <Button fx:id="search_btn" mnemonicParsing="false" text="Search" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Pane layoutX="479.0" layoutY="34.0" prefHeight="410.0" prefWidth="276.0" style="-fx-border-color: blue;">
+         <children>
+            <ImageView fx:id="imagePoster" fitHeight="410.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <VBox layoutX="792.0" layoutY="34.0" prefHeight="410.0" prefWidth="282.0" spacing="20.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+               <font>
+                  <Font name="Segoe UI Bold" size="22.0" />
+               </font>
+            </Text>
+            <Label fx:id="title_txt" />
+            <Text layoutX="128.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year">
+               <font>
+                  <Font name="Segoe UI Bold" size="22.0" />
+               </font>
+            </Text>
+            <Label fx:id="year_txt" layoutX="137.0" layoutY="60.0" />
+            <Text layoutX="128.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Actors">
+               <font>
+                  <Font name="Segoe UI Bold" size="22.0" />
+               </font>
+            </Text>
+            <Label fx:id="actors_txt" layoutX="137.0" layoutY="147.0" />
+            <Text layoutX="128.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Director">
+               <font>
+                  <Font name="Segoe UI Bold" size="22.0" />
+               </font>
+            </Text>
+            <Label fx:id="director_txt" layoutX="137.0" layoutY="234.0" />
+         </children>
+      </VBox>
+      <Pane layoutX="479.0" layoutY="454.0" prefHeight="209.0" prefWidth="587.0">
+         <children>
+            <Text layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Story">
+               <font>
+                  <Font name="Segoe UI Bold" size="22.0" />
+               </font>
+            </Text>
+            <TextFlow layoutY="34.0" prefHeight="166.0" prefWidth="578.0">
+               <children>
+                  <Text fx:id="plot_txt" strokeType="OUTSIDE" strokeWidth="0.0" />
+               </children>
+            </TextFlow>
+         </children>
+      </Pane>
+      <Text layoutX="14.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result">
+         <font>
+            <Font name="Segoe UI Bold" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

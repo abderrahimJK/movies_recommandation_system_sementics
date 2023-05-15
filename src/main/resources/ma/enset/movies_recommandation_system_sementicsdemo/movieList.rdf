@@ -1,0 +1,148 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.com/> .
+
+# Movie genres
+ex:Comedy rdf:type schema:Genre .
+ex:Fantasy rdf:type schema:Genre .
+ex:Crime rdf:type schema:Genre .
+ex:Drama rdf:type schema:Genre .
+ex:Music rdf:type schema:Genre .
+ex:Adventure rdf:type schema:Genre .
+ex:History rdf:type schema:Genre .
+ex:Thriller rdf:type schema:Genre .
+ex:Animation rdf:type schema:Genre .
+ex:Family rdf:type schema:Genre .
+ex:Mystery rdf:type schema:Genre .
+ex:Biography rdf:type schema:Genre .
+ex:Action rdf:type schema:Genre .
+ex:Film-Noir rdf:type schema:Genre .
+ex:Romance rdf:type schema:Genre .
+ex:Sci-Fi rdf:type schema:Genre .
+ex:War rdf:type schema:Genre .
+ex:Western rdf:type schema:Genre .
+ex:Horror rdf:type schema:Genre .
+ex:Musical rdf:type schema:Genre .
+ex:Sport rdf:type schema:Genre .
+
+# Movies
+ex:movie1 rdf:type schema:Movie ;
+    schema:name "Beetlejuice" ;
+    schema:datePublished "1988" ;
+    schema:duration "PT92M" ;
+    schema:director "Tim Burton" ;
+    schema:actor "Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page" ;
+    schema:description "A couple of recently deceased ghosts contract the services of a \"bio-exorcist\" in order to remove the obnoxious new owners of their house." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SX300.jpg" ;
+    schema:genre ex:Comedy, ex:Fantasy .
+
+ex:movie2 rdf:type schema:Movie ;
+    schema:name "The Cotton Club" ;
+    schema:datePublished "1984" ;
+    schema:duration "PT127M" ;
+    schema:director "Francis Ford Coppola" ;
+    schema:actor "Richard Gere, Gregory Hines, Diane Lane, Lonette McKee" ;
+    schema:description "The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .
+
+ex:movie3 rdf:type schema:Movie ;
+    schema:name "The Shawshank Redemption" ;
+    schema:datePublished "1994" ;
+    schema:duration "PT142M" ;
+    schema:director "Frank Darabont" ;
+    schema:actor "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler" ;
+    schema:description "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .
+
+ex:movie1 rdf:type schema:Movie ;
+    schema:name "Beetlejuice" ;
+    schema:datePublished "1988" ;
+    schema:duration "PT92M" ;
+    schema:director "Tim Burton" ;
+    schema:actor "Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page" ;
+    schema:description "A couple of recently deceased ghosts contract the services of a \"bio-exorcist\" in order to remove the obnoxious new owners of their house." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SX300.jpg" ;
+    schema:genre ex:Comedy, ex:Fantasy .
+
+ex:movie4 rdf:type schema:Movie ;
+    schema:name "The Shawshank Redemption" ;
+    schema:datePublished "1994" ;
+    schema:duration "PT142M" ;
+    schema:director "Frank Darabont" ;
+    schema:actor "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler" ;
+    schema:description "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .
+
+ex:movie5 rdf:type schema:Movie ;
+    schema:name "The Shawshank Redemption" ;
+    schema:datePublished "1994" ;
+    schema:duration "PT142M" ;
+    schema:director "Frank Darabont" ;
+    schema:actor "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler" ;
+    schema:description "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .
+
+ex:movie6 rdf:type schema:Movie ;
+    schema:name "The Shawshank Redemption" ;
+    schema:datePublished "1994" ;
+    schema:duration "PT142M" ;
+    schema:director "Frank Darabont" ;
+    schema:actor "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler" ;
+    schema:description "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .
+
+ex:movie2 rdf:type schema:Movie ;
+    schema:name "The Cotton Club" ;
+    schema:datePublished "1984" ;
+    schema:duration "PT127M" ;
+    schema:director "Francis Ford Coppola" ;
+    schema:actor "Richard Gere, Gregory Hines, Diane Lane, Lonette McKee" ;
+    schema:description "The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .
+
+ex:movie7 rdf:type schema:Movie ;
+    schema:name "The Shawshank Redemption" ;
+    schema:datePublished "1994" ;
+    schema:duration "PT142M" ;
+    schema:director "Frank Darabont" ;
+    schema:actor "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler" ;
+    schema:description "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .
+
+ex:movie8 rdf:type schema:Movie ;
+    schema:name "The Shawshank Redemption" ;
+    schema:datePublished "1994" ;
+    schema:duration "PT142M" ;
+    schema:director "Frank Darabont" ;
+    schema:actor "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler" ;
+    schema:description "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .
+
+ex:movie2 rdf:type schema:Movie ;
+    schema:name "The Cotton Club" ;
+    schema:datePublished "1984" ;
+    schema:duration "PT127M" ;
+    schema:director "Francis Ford Coppola" ;
+    schema:actor "Richard Gere, Gregory Hines, Diane Lane, Lonette McKee" ;
+    schema:description "The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .
+
+ex:movie9 rdf:type schema:Movie ;
+    schema:name "The Shawshank Redemption" ;
+    schema:datePublished "1994" ;
+    schema:duration "PT142M" ;
+    schema:director "Frank Darabont" ;
+    schema:actor "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler" ;
+    schema:description "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency." ;
+    schema:image "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg";
+    schema:genre ex:Crime, ex:Drama, ex:Music .

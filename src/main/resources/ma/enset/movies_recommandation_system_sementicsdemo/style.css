@@ -1,0 +1,73 @@
+.header {
+    -fx-padding: 20px 0px;
+    -fx-alignment: center;
+}
+
+.header-label {
+    -fx-text-fill: #e50914;
+    -fx-font-size: 30px;
+}
+
+.search-box {
+    -fx-background-color: #F5F5F5;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+    -fx-pref-width: 250px;
+}
+
+.search-box:hover {
+    -fx-background-color: #CCCCCC;
+    -fx-border-color: #999999;
+}
+
+.search-label {
+    -fx-padding: 0px 5px;
+    -fx-font-size: 16px;
+}
+
+.button-box {
+    -fx-alignment: center;
+}
+
+.button-label {
+    -fx-padding: 10px;
+    -fx-background-color: #e50914;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-cursor: hand;
+}
+
+.button-label:hover {
+    -fx-background-color: #E50914;
+}
+
+.label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.label:empty {
+    -fx-font-size: 20px;
+    -fx-font-style: italic;
+    -fx-text-fill: #CCCCCC;
+}
+
+/*.label:not(:empty) {*/
+/*    -fx-text-fill: #e50914;*/
+/*}*/
+
+/*.label:not(:empty):not(.header-label) {*/
+/*    -fx-padding: 10px 0px;*/
+/*}*/
+
+/*.label:not(:empty):not(.header-label):not(.button-label) {*/
+/*    -fx-font-size: 20px;*/
+/*    -fx-font-weight: normal;*/
+/*}*/
+
+#main-background {
+    -fx-background-color: #141414;
+}
+
